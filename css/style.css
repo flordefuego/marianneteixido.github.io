@@ -24,11 +24,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+ h1 {
+    background-color:#fff;
+    color: #000000;
+    font-family:sans-serif;
+    font-size: 20px;
+    line-height: 0.06;
+    padding: 30px 75px 75px 75px
+ }
+
+  body {
     background-color:#fff;
     color: #000000;
     font-family:sans-serif;
     font-size: 14px;
     line-height: 1.6;
-    padding: 30px 75px 75px 75px
+    padding: 30px 30px 30px 30px
 } 
+
+  li {
+      display: inline;
+
+  }
+  
+  img {
+      width: 50%;
+  }
