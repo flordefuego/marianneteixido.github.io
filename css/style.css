@@ -27,8 +27,8 @@ footer, header, hgroup, menu, nav, section {
 body {
     background-color:#fff;
     color: #000000;
-    front-family:sans-serif;
-    front-size: 14px;
+    font-family:sans-serif;
+    font-size: 14px;
     line-height: 1.6;
     padding: 30px 75px 75px 75px
 } 
