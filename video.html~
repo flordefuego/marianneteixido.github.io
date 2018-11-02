@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+ <!-- Navigation -->
+<nav class="w3-bar w3-black w3-top">
+  <a href="index.html#inicio" class="w3-button w3-bar-item">Teixido</a>
+  <a href="proyectos.html#proyectos" class="w3-button w3-bar-item">Proyectos</a\>
+  <a href="#publicaciones" class="w3-button w3-bar-item">Publicaciones</a>
+  <a href="#sonido" class="w3-button w3-bar-item">Sonido</a>
+  <a href="#fotografía" class="w3-button w3-bar-item">Fotografía</a>
+  <a href="#bitácora" class="w3-button w3-bar-item">Bitácora</a>
+  <a href="#contato" class="w3-button w3-bar-item">Contacto</a>
+</nav>
+  
+<!-- Header -->
+
+  <header class="w3-container w3-center w3-padding-64 w3-white">
+
+    <h1 class="w3-xxxlarge"><b>Proyectos</b></h1>
+
+    <h6>Código, video, música </h6>
+
+  </header>
+
+<section class="w3-container w3-center w3-content" id="proyectos" style="max-width:1000px">
+  <h2 class="w3-wide w3-padding-64">Unknown author. Meta-imágenes cartográficas</h2>
+      <p class="w3-justify w3-padding-16 w3-medium"> Este proyecto audiovisual es un intento de desplazamiento sobre la idea de la producción autoral, originalidad. El proyecto propone mirar al sujeto como un acumulador de bases de datos. Diariamente estamos expuestos a un sin fin de mensajes visuales en las redes sociales como Instagram. El objetivo es generar una serie de meta - imágenes de las imágenes para cuestionar la autoría y la creatividad a partir de la apropiación. (En proceso) <br><br>
+Proyecto apoyado por la beca Jóvenes Creadores del Fondo Nacional para la Cultura y las Artes. (2018-2019)
+      </p>
+
+      <h2 class="w3-wide w3-padding-32">Transición</h2>
+ <div align="center">
+   <iframe src="https://player.vimeo.com/video/282029406" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   </div>
+      
+  <p class="w3-justify w3-padding-16 w3-medium"> Documental experimental sobre las coyunturas del sistema político electoral en México. Primer pieza de la serie “Nosotrxs decimos no” la cual será elaborada a lo largo del sexenio 2018-2014.<br>
+    Las transiciones políticas en México han sido caracterizadas por la violencia durante la jornada electoral y en la ceremonia de toma de posesión, la cual se realiza el 1ero de diciembre de cada año electoral. El 1ero de diciembre de 2012, la oposición al candidato del PRI, Enrique Peña Nieto, se manifestó en las calles durante dicha ceremonia. Los manifestantes fueron reprimidos y muchos de ellos, fueron presos políticos. El sexenio de Peña Nieto estuvo plagado de corruptelas, “Casas Blancas”, estudiantes desaparecidos, periodistas asesinados, ejecuciones extrajudiciales y un sin fin de violaciones a los derechos humanos los cuales mantuvieron a México en un Estado de Excepción. <br>
+    
+
+
+    A diferencia de lo ocurrido en 2012, las elecciones en 2018 transcurrieron en un clima de tensión pero con una inigualable y aparente armonía debido a que el candidato de la oposición centristo-progresista, Andrés Manuel López Obrador obtuvo la victoria en la elecciones presidenciales, después de haberse postulado y perdido durante dos periodos electorales previos. Por otro lado, la candidatura independiente de María de Jesús Patricio, perteneciente al Consejo Nacional Indígena (CNI) en 2018 marcó una discusión entorno a las dinámicas políticas manejada tanto por el Instituto Nacional Electoral, el Ejército Zapatista de Liberación Nacional, los partidos oficiales y los momento de coyuntura como la elecciones. Es por ello que este documental retoma y contrapone elementos estas dinámicas políticas. ¿Es “la cuarta transformación” una apertura al verdadero cambio o es sólo una forma de retomar el discurso oficial del PRI nacionalista de los años cuarenta? </p>
+   	  
+  <h2 class="w3-wide w3-padding-64">Fragmentos</h2>
+
+  <iframe src="https://player.vimeo.com/video/254415898" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p class="w3-justify w3-padding-16 w3-medium" style="max-width:1000px">
+    Video ensayo sobre las nuevas fracturas sísmicas en la Ciudad de México, específicamente en la delegación Benito Juárez, tras el sismo del 19 de septiembre de 2017 provocadas por las excavaciones profundas para la construcción de inmuebles, muchos de ellos, sin permisos de construcción o producto de la corrupción además de la extracción de agua del subsuelo para satisfacer la demanda de una población cada vez más numerosa. Estas actividades fueron causantes de la vulnerabilidad física del suelo y son parte de los factores que influyeron en el derrumbe de inmuebles en la zona. <br>
+
+  Fragmentos es una investigación desde la sociología visual sobre la gentrificación de la ciudad y la catástrofe como catalizador de la corrupción gubernamental expresadas a través del montaje audiovisual que funge como la representación de la realidad externa polarizada. Después del temblor las condiciones objetivas de las personas afectadas por el sismo se contraponen en un crisol de formas arquitectónicas palpables a la vista y al paisaje sonoro presente en las calles.  <br><br>
+  Presentado en formato videoinstalación y performance audiovisual en Festival Hello World 1.0. Artista invitada. CDMX, abril 2018<br>
+ Formato fijo:  Muestra de Cine (y) Digital por el Festival Internacional de la Imagen. Manizales, Colombia, mayo 2018.<br> 
+Muestra Paréntesis, Cholula, Puebla. abril 2018<br>
+  Mención honorífica. VEA Bienal Internacional de Videoarte y animación Puebla 2018.<br>
+    Performance audiovisual: Memorial y acción 19S. Ambulante, Ciudadanos19S. Centro de Cultural Digital, CDMX, septiembre 2018.
+  </p>
+
+<h2 class="w3-wide w3-padding-64">Hipnosinesteria</h2>
+<iframe src="https://player.vimeo.com/video/220654496" width="640" height="330" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p class="w3-justify w3-padding-16 w3-medium" style="max-width:1000px">
+    Ensayo para la comprensión de un fenómeno hirsuto.<br><br>
+    Video seleccionado en la muestra Cine (y) Digital por el Festival Internacional de la Imagen 2018. Manizales, Colombia.<br>
+    Muestra Paréntesis, Cholula, Puebla. abril 2018<br>
+    Selección oficial WomenCinemakers, Berlín, Alemania, febrero 2018. 
+  </p>
+
+  </section>
+
+</body>
+</html>
+
