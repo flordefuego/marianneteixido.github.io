@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
+<title>Teixido</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
 <body>
 
 <!-- Navigation -->
@@ -12,29 +18,69 @@
  <!-- <a href="#publicaciones" class="w3-button w3-bar-item">Publicaciones</a>-->
   <a href="sonido.html#sonido" class="w3-button w3-bar-item">Sonido</a>
   <a href="fotografia.html" class="w3-button w3-bar-item">Fotografía</a>
-  <a href="#bitácora" class="w3-button w3-bar-item">Bitácora</a>
-  <a href="#contato" class="w3-button w3-bar-item">Contacto</a>
+  <a href="bitacora.html#bitacora" class="w3-button w3-bar-item">Bitácora</a>
 </nav>
-  
-<!-- Header -->
 
-  <header class="w3-container w3-center w3-padding-64 w3-white">
+<section class="w3-container w3-center w3-content" id="fotografia" style="max-width:1000px">
+  <h1 class="w3-wide w3-padding-64">Tiempo en imagen</h1>
+ <h2 class="w3-wide w3-padding-64 w3-center" id="fotografia">Cyber-latinoamericanity</h2>
 
-    <h1 class="w3-xxxlarge"><b>Tiempo en imagen</b></h1>
+<div class="w3-content w3-display-container">
+  <img class="mySlides1" src="image/vapor_bogota.jpg" style="width:100%">
+  <img class="mySlides1" src="image/pixel_fake_sort.jpg" style="width:100%">
+  <img class="mySlides1" src="image/pixel_fake_sort_2.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+
+<h2 class="w3-wide w3-padding-64 w3-center">Algorave Platoon</h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="image/algorave_01.png" style="width:100%">
+  <img class="mySlides2" src="image/algorave_02.png" style="width:100%">
+  <img class="mySlides2" src="image/algorave_03.png" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
 
 
-  </header>
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
 
-<section class="w3-container w3-center w3-content" id="sonido" style="max-width:1000px">
-     <h2 class="w3-wide w3-padding-32">Algorave Platoon</h2>
- <div align="center">
-  
-   </div>
-      
-     <p class="w3-justify w3-padding-16 w3-medium">
-     </p>
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+<p class="w3-justify w3-padding-16 w3-medium">
+</p>
    	  
   </section>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://vimeo.com/marianneteixido"><i class="fa fa-vimeo"></i></a>
+  <a href="https://soundcloud.com/marianne_teixido"><i class="fa fa-soundcloud"></i></a>
+  <a href="https://www.flickr.com/photos/marianneteixido/albums"><i class="fa fa-flickr"></i></a>
+  <a href="https://www.instagram.com/marianne_teixido/"><i class="fa fa-instagram"></i></a>
+  <a href="https://twitter.com/marianneteixido"><i class="fa fa-twitter"></i></a>
+  <a href="https://github.com/marianneteixido/"><i class="fa fa-github"></i></a>
+</footer>
 
 </body>
 </html>
